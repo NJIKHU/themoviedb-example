@@ -1,0 +1,62 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <h3>Poster</h3>
+      <%= image_tag("#{@configuration.base_url}w154#{@movie.poster_path}") if @movie.poster_path %>
+      <h3>Facts</h3>
+      Budget: $<%= number_with_delimiter(@movie.budget, :delimiter => ',') %><br />
+      Revenue: $<%= number_with_delimiter(@movie.revenue, :delimiter => ',') %><br />
+      Status: <%= @movie.status %><br />
+      Runtime: <%= @movie.runtime %><br />
+      Release Date: <br />
+      <%= @movie.release_date.to_date.strftime("%d/%m/%Y") if @movie.release_date %><br />
+      <h2>Trailers</h2>
+      <% @trailers['youtube'].each do |trailer| %>
+    		<%= link_to "#{trailer['name']} - #{trailer['size']}", "http://www.youtube.com/watch?v=#{trailer['source']}" %><br />
+    	<% end %>
+    </div>
+    <div class="span10">
+      <h2><%= @movie.title %></h2>
+      <div id="star" data-score="<%= @movie.vote_average %>"></div> <%= @movie.vote_average %> from <%= @movie.vote_count %> voters.
+
+			<h3>Overview</h3>
+			<%= @movie.overview %>
+
+			<h3>Tagline</h3>
+			<%= @movie.tagline %><br />
+
+			<h3>Images</h3>
+			<% @images.each do |image| %>
+				<%= image_tag("#{@configuration.base_url}w154#{image['file_path']}") if image['file_path'] %>
+			<% end %>
+
+			<h3>Genres</h3>
+			<% @movie.genres.each do |genre| %>
+				<%= genre['name'] %>
+			<% end %>
+
+			<h3>Casts</h3>
+			<table class="table table-bordered table-striped table-hover">
+				<% @cast.first(5).each do |cast| %>
+				<tr>
+					<td style="width:15%">
+						<%= image_tag("#{@configuration.base_url}w300#{cast['profile_path']}") if cast['profile_path'] %>
+					</td>
+					<td>
+						<%= link_to cast['name'], person_path(cast['id']) %> as <%= cast['character'] %><br />
+					</td>
+				</tr>
+				<% end %>
+			</table>
+
+			<h3>Similar Movies</h3>
+			<% @similar_movies.each do |movie| %>
+				<%= link_to movie_path(movie['id']) do %>
+					<%= image_tag("#{@configuration.base_url}w92#{movie['poster_path']}") if movie['poster_path'] %>
+				<% end %>
+			<% end %>
+			
+    </div>
+  </div>
+</div>
+
