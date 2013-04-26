@@ -36867,3 +36867,818 @@ Served asset /search.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 94.174.19.186 at 2013-04-23 12:29:11 +0100
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 94.174.19.186 at 2013-04-26 04:59:37 +0100
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3959.2ms)
+Completed 200 OK in 4395ms (Views: 4105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /bootstrap.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /search.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /bootstrap-responsive.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /bootstrap.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /jquery.raty.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:42 +0100
+Served asset /search.js - 200 OK (1ms)
+
+
+Started GET "/movies/109428" for 94.174.19.186 at 2013-04-26 04:59:44 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"109428"}
+  Rendered movies/show.html.erb within layouts/application (9504.5ms)
+Completed 200 OK in 11602ms (Views: 9518.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 04:59:56 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 04:59:56 +0100
+
+ActionController::RoutingError (No route matches [GET] "/movies/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/movies/109428" for 94.174.19.186 at 2013-04-26 05:00:48 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"109428"}
+  Rendered movies/show.html.erb within layouts/application (10524.6ms)
+Completed 200 OK in 13134ms (Views: 10535.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/movies/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /jquery.raty.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 05:01:01 +0100
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies/109428" for 94.174.19.186 at 2013-04-26 05:02:02 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"109428"}
+  Rendered movies/show.html.erb within layouts/application (7944.5ms)
+Completed 200 OK in 11100ms (Views: 7955.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+
+ActionController::RoutingError (No route matches [GET] "/movies/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /jquery.raty.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/assets/star-on.png" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /star-on.png - 200 OK (3ms)
+
+
+Started GET "/assets/star-off.png" for 94.174.19.186 at 2013-04-26 05:02:13 +0100
+Served asset /star-off.png - 200 OK (3ms)
+
+
+Started GET "/" for 94.174.19.186 at 2013-04-26 05:02:18 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3857.2ms)
+Completed 200 OK in 4122ms (Views: 3865.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /search.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /bootstrap-responsive.css - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /jquery.raty.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.174.19.186 at 2013-04-26 05:02:22 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies/124459" for 94.174.19.186 at 2013-04-26 05:02:25 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"124459"}
+  Rendered movies/show.html.erb within layouts/application (5984.3ms)
+Completed 200 OK in 7915ms (Views: 5992.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/144340" for 94.174.19.186 at 2013-04-26 05:02:33 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"144340"}
+  Rendered movies/show.html.erb within layouts/application (5008.3ms)
+Completed 200 OK in 7430ms (Views: 5018.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/122081" for 94.174.19.186 at 2013-04-26 05:02:40 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"122081"}
+  Rendered movies/show.html.erb within layouts/application (8713.5ms)
+Completed 200 OK in 11102ms (Views: 8722.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/112949" for 94.174.19.186 at 2013-04-26 05:02:52 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"112949"}
+  Rendered movies/show.html.erb within layouts/application (7582.4ms)
+Completed 200 OK in 9714ms (Views: 7590.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/81005" for 94.174.19.186 at 2013-04-26 05:03:01 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"81005"}
+  Rendered movies/show.html.erb within layouts/application (7423.4ms)
+Completed 200 OK in 9686ms (Views: 7431.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+
+ActionController::RoutingError (No route matches [GET] "/movies/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies/124459" for 94.174.19.186 at 2013-04-26 05:03:11 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"124459"}
+  Rendered movies/show.html.erb within layouts/application (5872.3ms)
+Completed 200 OK in 7189ms (Views: 5884.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+Served asset /search.css - 304 Not Modified (1ms)
+
+
+Started GET "/movies/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+
+ActionController::RoutingError (No route matches [GET] "/movies/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /jquery.raty.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/star-on.png" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /star-on.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/star-off.png" for 94.174.19.186 at 2013-04-26 05:03:19 +0100
+Served asset /star-off.png - 304 Not Modified (0ms)
+
+
+Started GET "/person/206" for 94.174.19.186 at 2013-04-26 05:03:26 +0100
+Processing by PersonController#show as HTML
+  Parameters: {"id"=>"206"}
+  Rendered person/show.html.erb within layouts/application (2033.1ms)
+Completed 200 OK in 4024ms (Views: 2046.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/person/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/person/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /jquery.raty.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.174.19.186 at 2013-04-26 05:03:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies/854" for 94.174.19.186 at 2013-04-26 05:05:47 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"854"}
+  Rendered movies/show.html.erb within layouts/application (6522.4ms)
+Completed 200 OK in 8977ms (Views: 6531.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies/assets/bootstrap-responsive.css" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/movies/assets/bootstrap-responsive.css"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.8) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.8) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.8) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.8) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /jquery.raty.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/star-on.png" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /star-on.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/star-off.png" for 94.174.19.186 at 2013-04-26 05:05:57 +0100
+Served asset /star-off.png - 304 Not Modified (0ms)
