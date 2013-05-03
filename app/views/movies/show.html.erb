@@ -50,11 +50,13 @@
 				<% end %>
 			</table>
 
+			<% if @similar_movies %>
 			<h3>Similar Movies</h3>
-			<% @similar_movies.first(14).each do |movie| %>
-				<% if movie %>
-					<%= link_to movie_path(movie['id']) do %>
-						<%= image_tag("#{@configuration.base_url}w92#{movie['poster_path']}") if movie['poster_path'] %>
+				<% @similar_movies.first(14).each do |movie| %>
+					<% if movie %>
+						<%= link_to movie_path(movie['id']) do %>
+							<%= image_tag("#{@configuration.base_url}w92#{movie['poster_path']}") if movie['poster_path'] %>
+						<% end %>
 					<% end %>
 				<% end %>
 			<% end %>
